@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
@@ -7,14 +7,14 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body class="inner-page">
 		<header class="main-header">
 			<div class="container clearfix">
 				<nav class="main-navigation"> <!-- nav - блок, контейнер для основного содержания, основную навигацию, главное меню-->
+					<a href="index.html" class="logo-inner">
+						<img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+					</a>
 					<ul>
-						<li>
-							<a href="#"><img src="img/nav-logo.png" width="368" height="204" alt="Вернуться на главную страницу"></a>
-						</li>
 						<li>
 							<a href="#">Информация</a>
 						</li>
@@ -24,11 +24,11 @@
 						<li>
 							<a href="#">Прайс-лист</a>
 						</li>
-						<li>
-							<a href="#">Магазин</a>
+						<li class="active">
+							<span>Магазин</span>
 						</li>
 						<li>
-							<a href="#">Контакт</a>
+							<a href="#">Контакты</a>
 						</li>
 					</ul>
 				</nav>
@@ -38,28 +38,30 @@
 			</div>
 		</header>
 		<div class="container clearfix">
-			<h2 class="page-title">Набор для путешествий "Baxter of California"</h2>
-			<ul class="breadcrumbs">
-				<li class="breadcrumbs-item"><a href="#">главная</a></li>
-				<li class="breadcrumbs-item"><a href="#">магазин</a></li>
-				<li class="breadcrumbs-item"><a href="#">средства для ухода</a></li>
-				<li class="breadcrumbs-item">Набор для путешествий "Baxter of California"</li>
-			</ul>
+			<div class="inner-page-title">
+				<h1>Набор для путешествий «Baxter of California»</h1>
+				<ul class="breadcrumbs">
+					<li><a href="index.html">главная</a></li>
+					<li><a href="#">магазин</a></li>
+					<li><a href="#">средства для ухода</a></li>
+					<li class="current">Набор для путешествий "Baxter of California"</li>
+				</ul>
+			</div>	
 			<div class="images">
 				<div class="image-active">
-					<img src="img/image1" width="460" height="498" alt="фото товара">
+					<img src="img/goods1.jpg" width="460" height="498" alt="фото товара">
 				</div>
 				<div class="image-preview">
-					<img src="img/image2" width="140" height="149" alt="фото товара">
+					<img src="img/goods2.jpg" width="140" height="149" alt="фото товара">
 				</div>
 				<div class="image-preview">
-					<img src="img/image3" width="140" height="149" alt="фото товара">
+					<img src="img/goods3.jpg" width="140" height="149" alt="фото товара">
 				</div>
 				<div class="image-preview">
-					<img src="img/image4" width="140" height="149" alt="фото товара">
+					<img src="img/goods4.jpg" width="140" height="149" alt="фото товара">
 				</div>
 			</div>
-			<section class="item-description clearfix">
+			<section class="item-description">
 				<div class="item-details clearfix">
 					<p class="available">Есть в наличии</p>
 					<p class="code">Артикул: Dexter-AE</p>
@@ -69,20 +71,20 @@
 					 отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. 
 					 Набор также может стать отличным подарком.</p>
 				<div class="item-price">	 
-					<span class="cost">2900 руб.</span>
-					<a class="btn-buy" href="#">Купить</a>
+					<span class="cost">2 900 руб.</span>
+					<a class="btn buy" href="#">Купить</a>
 				</div>
 				<h2 class="description-more">В набор входят:</h2>
 				<ul class="description-extra">
-					<li>Средство для умывания(50 мл)</li>
-					<li>Увлажняющий крем(50 мл)</li>
-					<li>Крем для бритья(50 мл)</li>
-					<li>Крем после бритья, шампунь(50 мл)</li>
+					<li>Средство для умывания (50 мл)</li>
+					<li>Увлажняющий крем (50 мл)</li>
+					<li>Крем для бритья (50 мл)</li>
+					<li>Крем после бритья, шампунь (50 мл)</li>
 					<li>Удобная кожаная косметичка</li>
 				</ul>
 			</section>
 		</div>
-		<footer class="main-footer item-footer">
+		<footer class="main-footer clearfix">
 			<div class="container">
 				<section class="footer-contacts">
 					<p>Барбершоп «Бородинский»<br>
