@@ -1,10 +1,41 @@
+/*=====================    ШРИФТЫ    ===================*/
+@font-face {
+    font-family: 'PT_SansNarrowWebBold';
+    src: url('..//fonts/PT_SansNarrowWebBold.eot');
+    src: url('..//fonts/PT_SansNarrowWebBold.eot') format('embedded-opentype'),
+         url('..//fonts/PT_SansNarrowWebBold.woff2') format('woff2'),
+         url('..//fonts/PT_SansNarrowWebBold.woff') format('woff'),
+         url('..//fonts/PT_SansNarrowWebBold.ttf') format('truetype'),
+         url('..//fonts/PT_SansNarrowWebBold.svg#PT_SansNarrowWebBold') format('svg');
+}
+
+@font-face {
+    font-family: 'PT_SansNarrowWebRegular';
+    src: url('..//fonts/PT_SansNarrowWebRegular.eot');
+    src: url('..//fonts/PT_SansNarrowWebRegular.eot') format('embedded-opentype'),
+         url('..//fonts/PT_SansNarrowWebRegular.woff2') format('woff2'),
+         url('..//fonts/PT_SansNarrowWebRegular.woff') format('woff'),
+         url('..//fonts/PT_SansNarrowWebRegular.ttf') format('truetype'),
+         url('..//f..//onts/PT_SansNarrowWebRegular.svg#PT_SansNarrowWebRegular') format('svg');
+}
+/*Для удобства можно упростить дальнейшее включение шрифтов
+.bold {
+	font-family: 'PT_SansNarrowWebBold';
+}	
+.reg {
+	font-family: 'PT_SansNarrowWebRegular';
+}
+*/
+
+/*===================== Остальное ======================*/
+
 html,
 body {
 	min-width: 960px;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	font-family: "PT_SansNarrowWebBold", "Arial", sans-serif;
 	text-transform: uppercase;
 	background: #000000 url("../img/body-bg.png") no-repeat center top;
 	color: #ffffff;
@@ -241,7 +272,7 @@ height: auto уменьшает картинку с сохранением пр�
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial"
+	font-family: "PT_SansNarrowWebBold", "Arial"
 	, sans-serif;
 
 	color: #ffffff;
@@ -306,7 +337,7 @@ height: auto уменьшает картинку с сохранением пр�
 .appointment-form input {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial",
+	font-family: "PT_SansNarrowWebBold", "Arial",
 	sans-serif;
 	color: #000000;
 	text-transform: uppercase;
@@ -933,7 +964,7 @@ height: auto уменьшает картинку с сохранением пр�
 
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial",
+	font-family: "PT_SansNarrowWebBold", "Arial",
 	sans-serif;
 	color: #000000;
 	text-transform: uppercase;
