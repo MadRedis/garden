@@ -855,6 +855,10 @@ height: auto уменьшает картинку с сохранением пр�
 	margin-bottom: 26px;
 }
 
+.inner-content .goods-group {
+	margin-top: 47px;
+}
+
 .vendor-select label {
 	display: block;
 	position: relative;
